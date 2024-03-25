@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/linkbuttons.css">
     <title>Hotel SandClock</title>
 </head>
 <body>
@@ -22,6 +23,50 @@
         <input type="date" id="check-in" name="check-in" placeholder="Check-in" />
         <input type="date" id="departure" name="departure" placeholder="Departure" />
         <button>Search</button>
+    </div>
+    <div class="link-buttons">
+        <ul>
+            <li>
+                <a class="facebook" href="https://www.facebook.com/">
+                    <img src="images/facebook.png" alt="Facebook">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="twitter" href="https://twitter.com/">
+                    <img src="images/twit.png" alt="Twitter">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="instagram" href="https://www.instagram.com/">
+                    <img src="images/insta.png" alt="Instagram">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="linkedin" href="https://www.linkedin.com/">
+                    <img src="images/linkedin.png" alt="Linkedin">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
     </div>
 </div>
 <div class="container">
