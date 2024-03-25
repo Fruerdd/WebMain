@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: #ebebeb;
 }
 .header {
     background-image: url('../images/main.jpg');
@@ -10,6 +11,12 @@ body {
     text-align: center;
     padding: 100px 0;
     height: 590px;
+}
+.link-buttons {
+    position: absolute; /* Абсолютное позиционирование для кнопок */
+    top: 50%; /* Расположение кнопок от верха секции */
+    right: 20px; /* Расстояние от левого края секции */
+    z-index: 10; /* Убедитесь, что кнопки находятся над изображением */
 }
 .navbar {
     overflow: hidden;
