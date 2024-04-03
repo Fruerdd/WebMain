@@ -18,11 +18,47 @@
 </div>
 
 <div class="header">
-    <div class="welcome-text">WELCOME TO THE EXCEPTIONAL</div>
-    <div class="search-box">
-        <input type="date" id="check-in" name="check-in" placeholder="Check-in" />
-        <input type="date" id="departure" name="departure" placeholder="Departure" />
-        <button>Search</button>
+    <div class="video">
+        <video class="backgroundVideo" src="images/background.MP4" autoplay muted loop></video>
+    </div>
+    <div class="form-container">
+        <h2>Сделать Вашу Резервацию</h2>
+        <form action="/submit-reservation" method="post">
+            <div class="form-group">
+                <label for="check-in">Arrival date</label>
+                <input type="date" id="check-in" name="check_in">
+            </div>
+
+            <div class="form-group">
+                <label for="check-out">Departure date</label>
+                <input type="date" id="check-out" name="check_out">
+            </div>
+
+            <div class="form-group">
+                <label for="guests">Guests</label>
+                <select id="guests" name="guests">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="children">Children</label>
+                <select id="children" name="children">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="button-group">
+                <button class="button-reservation">Check reservation</button>
+            </div>
+        </form>
     </div>
     <div class="link-buttons">
         <ul>
