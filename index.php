@@ -7,16 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/linkbuttons.css">
+    <link rel="stylesheet" href="css/mainnavig.css">
     <title>Hotel SandClock</title>
 </head>
 <body>
-<div class="navbar">
-    <a href="#home">Home</a>
-    <a href="#hotels">Hotels</a>
-    <a href="#account">Account</a>
-    <a href="#help">Help</a>
-</div>
-
+<ul class="navbar">
+    <div class="left">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">FAQ</a></li>
+    </div>
+    <div class="right">
+        <li><a class="account" href="#">Account</a></li>
+        <li><a><button class="wrapper" id="themeToggle">Theme</button></a></li>
+    </div>
+</ul>
 <div class="header">
     <div class="video">
         <video class="backgroundVideo" src="images/background.MP4" autoplay muted loop></video>
@@ -203,7 +208,7 @@
 <footer class="site-footer">
     <div class="footer-content">
         <div class="footer-section">
-            <img src="logo-path.png" alt="Logo" class="footer-logo">
+            <img src="" alt="Logo" class="footer-logo">
             <p>ATLANTIS THE ROYAL DUBAI</p>
         </div>
         <div class="footer-section">
@@ -223,5 +228,6 @@
         </div>
     </div>
 </footer>
+<script src="js/theme.js"></script>
 </body>
 </html>
