@@ -8,19 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/linkbuttons.css">
     <link rel="stylesheet" href="css/mainnavig.css">
+    <link rel="stylesheet" href="css/cards.css">
     <title>Hotel SandClock</title>
 </head>
 <body>
 <ul class="navbar">
-    <div class="left">
         <li><a class="active" href="#">Home</a></li>
         <li><a href="#">Rooms</a></li>
         <li><a href="#">FAQ</a></li>
-    </div>
-    <div class="right">
-        <li><a class="account" href="#">Account</a></li>
-        <li><a><button class="wrapper" id="themeToggle">Theme</button></a></li>
-    </div>
+        <li style="float:right"><a class="account" href="#">Account</a></li>
+        <li style="float:right"><a><button class="wrapper" id="themeToggle">Theme</button></a></li>
 </ul>
 <div class="header">
     <div class="video">
@@ -147,30 +144,58 @@
         <!-- More dots as needed -->
     </div>
 </div>
-<div class="content-wrapper">
-    <div class="column-item">
-        <img src="images/slider1.jpeg" alt="View">
-        <h2>ОТДЫХ НА ВЫСОТЕ</h2>
-        <p>Каждый номер знаменитого курорта — это мир роскоши...</p>
-        <button class="learn-more">УЗНАТЬ БОЛЬШЕ</button>
+<div class="cards">
+    <div class="card">
+        <img src="images/card1.jpg" alt="Swimming pool" width="1920" height="2193">
+        <div class="card__content | flow">
+            <div class="card__content--container | flow">
+                <h2 class="card__title">Colombia</h2>
+                <p class="card__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+                    labore laudantium deserunt fugiat numquam.
+                </p>
+            </div>
+            <button class="card__button">Read more</button>
+        </div>
     </div>
-    <div class="column-item">
-        <img src="images/slider1.jpeg" alt="Food">
-        <h2>СИМФОНИЯ ВКУСОВ</h2>
-        <p>Главный центр притяжения для гурманов в Дубае...</p>
-        <button class="learn-more">УЗНАТЬ БОЛЬШЕ</button>
+    <div class="card">
+        <img src="images/card2.jpg" alt="Restaurant" width="1920" height="2193">
+        <div class="card__content | flow">
+            <div class="card__content--container | flow">
+                <h2 class="card__title">Colombia</h2>
+                <p class="card__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+                    labore laudantium deserunt fugiat numquam.
+                </p>
+            </div>
+            <button class="card__button">Read more</button>
+        </div>
     </div>
-    <div class="column-item">
-        <img src="images/slider1.jpeg" alt="Night Life">
-        <h2>ЯРКАЯ НОЧНАЯ ЖИЗНЬ</h2>
-        <p>Один из главных центров ночной жизни большого города...</p>
-        <button class="learn-more">УЗНАТЬ БОЛЬШЕ</button>
+    <div class="card">
+        <img src="images/card3.jpg" alt="Night Life" width="1920" height="2193">
+        <div class="card__content | flow">
+            <div class="card__content--container | flow">
+                <h2 class="card__title">Colombia</h2>
+                <p class="card__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+                    labore laudantium deserunt fugiat numquam.
+                </p>
+            </div>
+            <button class="card__button">Read more</button>
+        </div>
     </div>
-    <div class="column-item">
-        <img src="images/slider1.jpeg" alt="Spa">
-        <h2>ПОЛНОЕ ПРЕОБРАЖЕНИЕ</h2>
-        <p>Новые холистические спа- и велнес-процедуры...</p>
-        <button class="learn-more">УЗНАТЬ БОЛЬШЕ</button>
+    <div class="card">
+        <img src="images/card4.jpg" alt="Service" width="1920" height="2193">
+        <div class="card__content | flow">
+            <div class="card__content--container | flow">
+                <h2 class="card__title">Colombia</h2>
+                <p class="card__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+                    labore laudantium deserunt fugiat numquam.
+                </p>
+            </div>
+            <button class="card__button">Read more</button>
+        </div>
     </div>
 </div>
 <div class="advantages-container">
