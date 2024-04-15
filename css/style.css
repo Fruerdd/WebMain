@@ -120,9 +120,31 @@ body.dark-theme {
     color: black;
 }
 
+#reservation {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .form-container {
+        display: none;
+    }
+    #reservation {
+        display: block;
+        z-index: 10;
+    }
+}
+
+
 .form-container {
     font-family: 'Arial', sans-serif;
-    background-color: rgba(255, 255, 255, 0.4); /* Белый фон с небольшой прозрачностью */
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
