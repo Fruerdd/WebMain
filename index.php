@@ -16,15 +16,16 @@
         <li><a class="active" href="#">Home</a></li>
         <li><a href="#">Rooms</a></li>
         <li><a href="#">FAQ</a></li>
-        <li style="float:right"><a class="account" href="#">Account</a></li>
+        <li style="float:right"><a class="account" href="login.html">Account</a></li>
         <li style="float:right"><a><button class="wrapper" id="themeToggle">Theme</button></a></li>
 </ul>
 <div class="header">
+    <button id="reservation" style="display: none;">Reservation</button>
     <div class="video">
         <video class="backgroundVideo" src="images/background.MP4" autoplay muted loop></video>
     </div>
     <div class="form-container">
-        <h2>Сделать Вашу Резервацию</h2>
+        <h2>Make your reservation</h2>
         <form action="/submit-reservation" method="post">
             <div class="form-group">
                 <label for="check-in">Arrival date</label>
@@ -108,10 +109,10 @@
     </div>
 </div>
 <div class="container">
-    <h1 class="title">САМЫЙ УЛЬТРАРОСКОШНЫЙ КУРОРТ С РАЗВЛЕЧЕНИЯМИ В МИРЕ</h1>
+    <h1 class="title">THE MOST ULTRA LUXURY RESORT WITH ENTERTAINMENT IN THE WORLD</h1>
     <div class="line"></div>
-    <p class="subtitle">Добро пожаловать на курорт Atlantis The Royal, который изменит ваше представление о роскоши. А безупречное обслуживание задает новый уровень совершенства. Здесь каждое мгновение отдыха наполнено яркими впечатлениями.</p>
-    <button class="button">БРОНИРОВАТЬ</button>
+    <p class="subtitle">Welcome to the Atlantis The Royal Resort, which will change your idea of luxury. And impeccable service sets a new level of excellence. Here, every moment of rest is filled with vivid impressions.</p>
+    <button class="button">BOOK</button>
 </div>
 
 <div class="slider">
