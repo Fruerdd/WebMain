@@ -13,7 +13,7 @@
     <div class="maincontainer">
         <div class="logincontainer">
             <h3 class="logintitle">New user registration</h3>
-            <form action="regformhandler.php" method="post">
+            <form action="includes/regformhandler.php" method="post">
                 <div class="inputfield">
                     <label>Name</label>
                     <input type="text" name="firstname">

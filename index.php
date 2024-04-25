@@ -16,7 +16,7 @@
         <li><a class="active" href="#">Home</a></li>
         <li><a href="#">Rooms</a></li>
         <li><a href="#">FAQ</a></li>
-        <li style="float:right"><a class="account" href="login.html">Account</a></li>
+        <li style="float:right"><a class="account" href="loginform.php">Account</a></li>
         <li style="float:right"><a><button class="wrapper" id="themeToggle">Theme</button></a></li>
 </ul>
 <div class="header">

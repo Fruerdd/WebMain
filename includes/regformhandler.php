@@ -84,7 +84,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transparent Login Form</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:100,300,500">
-    <link rel="stylesheet" href="css/regformhandlerstyle.css">
+    <link rel="stylesheet" href="../css/regformhandlerstyle.css">
 </head>
 <body>
   <div class="maincontainer">
@@ -96,11 +96,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             echo $error["erremail"] . "<br>";
             echo $error["errpwd"] . "<br>";
             echo $error["erremailexists"] . "<br><br>";
-            echo 'Click <a href="registerform.php">here</a> to try again';
+            echo 'Click <a href="../registerform.php">here</a> to try again';
         }
         else{
             echo "Registration successful". "<br><br>";
-            echo 'Click <a href="loginform.php">here</a> to log in';
+            echo 'Click <a href="../loginform.php">here</a> to log in';
         }?>
     </div>
   </div>
