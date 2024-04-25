@@ -13,7 +13,7 @@
     <div class="maincontainer">
         <div class="logincontainer">
             <h3 class="logintitle">Please Login</h3>
-            <form action="logformhandler.php" method="post">
+            <form action="includes/logformhandler.php" method="post">
                 <div class="inputfield">
                     <label>Email</label>
                     <input type="email" name='email'>
