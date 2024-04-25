@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transparent Login Form</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:100,300,500">
-    <link rel="stylesheet" href="styleform.css">
+    <link rel="stylesheet" href="css/styleform.css">
 </head>
 <body>
     <div class="maincontainer">
